@@ -573,7 +573,7 @@ newest2 = (r.slice( -5 ));
 i = r[-5];
 
 $.each(newest,function(i,v) {
-$(".wow2").append("<img src='img/emoji/"+ newest2[i] +".png'>" + newest[i] + "&nbsp;");
+$(".wow2").html("<img src='img/emoji/"+ newest2[i] +".png'>" + newest[i] + "&nbsp;");
 });
 
  $('.wow2').html(function(_, text) {
