@@ -2,10 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>title</title>
+    <title>Emoji.js</title>
     <link rel="stylesheet" href="css/emoji.css">
     <link rel="stylesheet" href="css/bootstrapgrid.css">
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 </head>
 <body>
   
@@ -564,6 +563,8 @@ Emoji.js is a plugin to convert your typing to colourful twitter emoji to use on
 
 
  <a class="dl2" href="https://github.com/twitter/twemoji">Twitter Emoji Copyright (C) Twitter, Inc.</a>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src="emoji.js"></script>
 <script type="text/javascript">
 
@@ -572,8 +573,8 @@ newest = (f.slice( -5 ));
 newest2 = (r.slice( -5 ));
 i = r[-5];
 
-$.each(newest,function(i,v) {
-$(".wow2").append("<img src='img/emoji/"+ newest2[i] +".png'>" + newest[i] + "&nbsp;");
+newest.each(newest,function(i,v) {
+$(".wow2").html("<img src='img/emoji/"+ newest2[i] +".png'>" + newest[i] + "&nbsp;");
 });
 
  $('.wow2').html(function(_, text) {
