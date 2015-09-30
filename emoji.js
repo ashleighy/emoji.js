@@ -18,7 +18,7 @@ var re = $.map(f, function(v,i) {
     return new RegExp(v, 'g');
 });
 
-$('body').html(function(i,text) {
+$('div').html(function(i,text) {
     $.each(f,function(i,v) {
         text = text.replace(re[i],"<img src='img/emoji/"+ r[i] +".png'>"); //edit img src here to match where you placed your emoji folder
     });
