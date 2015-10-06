@@ -164,3 +164,14 @@ a:hover, .d1:hover{
     transition: all 1s;
     -webkit-transition: all 1s;
   }
+
+  @media (max-width: 800px) {
+h1{font-size: 2.5em;}
+h1 img{
+     height: 1em;
+}
+.topbtn{
+  width: 250px;
+}
+
+} 
