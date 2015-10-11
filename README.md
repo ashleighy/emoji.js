@@ -5,7 +5,7 @@
 
 Emoji.js is a plugin to convert your typing to colourful twitter emoji to use on your website or projects.
 
-Place `<script src="https://cdn.rawgit.com/ashleighy/emoji.js/master/emoji.js.js"></script>` in your HTML file after your jQuery script.
+Place `<script src="http://cdn.rawgit.com/ashleighy/emoji.js/master/emoji.js.js"></script>` in your HTML file after your jQuery script.
 
 *OR*
 
