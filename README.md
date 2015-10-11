@@ -5,8 +5,13 @@
 
 Emoji.js is a plugin to convert your typing to colourful twitter emoji to use on your website or projects.
 
-Place `<script src="/path/to/emoji.js"></script>` in your HTML file after your jQuery.
+Place `<script src="https://cdn.rawgit.com/ashleighy/emoji.js/master/emojijs.js"></script>` in your HTML file after your jQuery script.
 
-Place the Emoji folder in your img folder and Emoji.js in your js folder. Then take a look at the cheatsheet for available codes and get typing! All Emoji are written between {braces}.
+*OR*
+
+1.  Place `<script src="/path/to/emoji.js"></script>` in your HTML file after your jQuery.
+2.  Place the Emoji folder in your img folder and Emoji.js in your js folder. 
+
+Then take a look at the cheatsheet for available codes and get typing! All Emoji are written between {braces}.
 
 {:)} = :smiley:   {heart} = :heart:
